@@ -1,0 +1,15 @@
+name: DonutShop
+version: 1.0
+main: me.donutshop.DonutShop
+api-version: "26.1"
+depend: [Vault]
+commands:
+  shop:
+    description: Open the Quick Buy shop
+    aliases: [quickbuy, qb, donutshop]
+    permission: donutshop.use
+permissions:
+  donutshop.use:
+    default: true
+  donutshop.reload:
+    default: op

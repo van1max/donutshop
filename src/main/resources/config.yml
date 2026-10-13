@@ -1,0 +1,46 @@
+title: "&8Quick Buy"
+rows: 6
+filler: GRAY_STAINED_GLASS_PANE   # set to AIR to disable
+
+# Each item: slot (0-based), material, amount, price, optional name/lore
+items:
+  golden_apple:
+    slot: 46
+    material: GOLDEN_APPLE
+    amount: 8
+    price: 500
+  ender_pearl:
+    slot: 47
+    material: ENDER_PEARL
+    amount: 4
+    price: 800
+  obsidian:
+    slot: 48
+    material: OBSIDIAN
+    amount: 16
+    price: 1200
+  diamond_sword:
+    slot: 49
+    material: DIAMOND_SWORD
+    amount: 1
+    price: 2500
+    name: "&bDiamond Sword"
+  totem:
+    slot: 50
+    material: TOTEM_OF_UNDYING
+    amount: 1
+    price: 5000
+  spawner:
+    slot: 51
+    material: SPAWNER
+    amount: 1
+    price: 250000
+    name: "&6&lSpawner"
+    lore:
+      - "&7Place it and start farming!"
+
+messages:
+  bought: "&aBought &f%amount%x %item% &afor &e$%price%&a."
+  no-money: "&cYou need &e$%price% &cto buy this."
+  inv-full: "&cYour inventory is full."
+  reloaded: "&aConfig reloaded."
